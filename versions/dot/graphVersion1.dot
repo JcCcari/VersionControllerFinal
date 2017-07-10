@@ -1,0 +1,4 @@
+digraph G{ 
+node [shape=circle];
+root -> textmaster1 [color= red];
+}

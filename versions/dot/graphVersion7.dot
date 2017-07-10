@@ -1,0 +1,10 @@
+digraph G{ 
+node [shape=circle];
+root -> textmaster1 [color= red];
+textmaster1 -> textmaster2 [color= red];
+textmaster2 -> textmaster3 [color= red];
+textmaster3 -> textbranch14 [color= red];
+textmaster3 -> textmaster5 [color= red];
+textmaster5 -> textmaster6 [color= red];
+textmaster6 -> textmaster7 [color= red];
+}

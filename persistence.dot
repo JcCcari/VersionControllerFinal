@@ -1,0 +1,38 @@
+digraph G{ 
+node [shape=circle];
+root1 -> textmaster11;
+root2 -> textmaster12;
+textmaster12 -> textmaster22;
+root3 -> textmaster13;
+textmaster13 -> textmaster23;
+textmaster23 -> textmaster33;
+root4 -> textmaster14;
+textmaster14 -> textmaster24;
+textmaster24 -> textmaster34;
+textmaster34 -> textbranch144;
+root5 -> textmaster15;
+textmaster15 -> textmaster25;
+textmaster25 -> textmaster35;
+textmaster35 -> textmaster55;
+root6 -> textmaster16;
+textmaster16 -> textmaster26;
+textmaster26 -> textmaster36;
+textmaster36 -> textmaster56;
+textmaster56 -> textmaster66;
+root7 -> textmaster17;
+textmaster17 -> textmaster27;
+textmaster27 -> textmaster37;
+textmaster37 -> textmaster57;
+textmaster57 -> textmaster67;
+textmaster67 -> textmaster77;
+root8 -> textmaster18;
+textmaster18 -> textmaster28;
+textmaster28 -> textmaster38;
+textmaster38 -> textmaster58;
+textmaster58 -> textmaster68;
+textmaster68 -> textmaster78;
+textmaster78 -> textmaster88;
+root9 -> textmaster19;
+textmaster19 -> textmaster29;
+textmaster29 -> textmaster39;
+}
